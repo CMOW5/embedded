@@ -1,0 +1,52 @@
+# =========================
+# Build artifacts
+# =========================
+/build/
+*.o
+*.elf
+*.bin
+*.map
+*.lst
+*.d
+
+# =========================
+# Toolchain / debug files
+# =========================
+*.log
+*.tmp
+*.bak
+*.swp
+
+# =========================
+# clangd / C++ tooling
+# =========================
+compile_commands.json
+.cache/
+.clangd/
+
+# =========================
+# VS Code
+# =========================
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Python / pyOCD
+# =========================
+__pycache__/
+*.pyc
+.pyocd.yaml
+
+# =========================
+# OpenOCD
+# =========================
+openocd.log
